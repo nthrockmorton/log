@@ -30,7 +30,7 @@ while i < 10:
                 temps_hums.append(temp_hum)
                 i += 1      
                 time.sleep(5)
-                json.dump(timestamps, temp_hums)
+                json.dump(timestamps, temps_hums)
         else:
                 print 'Failed to get reading. Try again!'
                 break
