@@ -29,7 +29,7 @@ while i < 10:
                 timestamps.append(timestamp)
                 temps_hums.append(tem_hum)
                 i += 1      
-                        time.sleep(5)
+                time.sleep(5)
         else:
                 print 'Failed to get reading. Try again!'
                 break
