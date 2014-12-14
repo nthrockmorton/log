@@ -9,7 +9,7 @@ sensor = Adafruit_DHT.DHT22
 pin = 4
 
 #Set up empty lists for temp and hum data
-timestamps = 0-
+timestamps = []
 temps_hums = []
 hums = []
 
