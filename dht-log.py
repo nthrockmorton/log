@@ -27,7 +27,7 @@ while i < 10:
                 print (timestamp)
                 print (temp_hum)
                 timestamps.append(timestamp)
-                temps_hums.append(tem_hum)
+                temps_hums.append(temp_hum)
                 i += 1      
                 time.sleep(5)
         else:
