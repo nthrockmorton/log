@@ -22,7 +22,7 @@ while i < 10:
         humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
         temperature_f = temperature * 1.8 +32
         if humidity is not None and temperature is not None:
-                timestamp = time.strftime('%b %d, %Y  %I:%M:%S %P')
+                timestamp = time.strftime('%Y-%m-%d %H:%M:%S')
                 temp_hum = 'Temp={0:0.1f}*F  Humidity={1:0.1f}%'.format(temperature_f, humidity)
                 print (timestamp)
                 print (temp_hum)
